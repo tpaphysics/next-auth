@@ -1,38 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+<p align="center">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white"></a>
+  <a href="https://next-auth.js.org/"><img src="https://img.shields.io/badge/-NextAuth-000000?style=flat-square&logo=next.js&logoColor=white"></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"></a>
+</p>
 
-## Getting Started
+# 🔒 Login com Google e Github usando Next.js e NextAuth
 
-First, run the development server:
+Este é um exemplo simples de como criar um sistema de login com Google e Github usando Next.js e NextAuth.
+
+## 📙 Funcionalidades
+
+- Login com Google
+- Login com Github
+- Logout
+- Proteção de rotas
+
+## Como usar
+
+1. Instale as dependências:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+ npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Configure as variáveis de ambiente:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Crie um arquivo `.env` na raiz do projeto
+- Adicione as seguintes variáveis de ambiente ao arquivo:
+  ```
+  GOOGLE_CLIENT_ID=seu_google_client_id
+  GOOGLE_CLIENT_SECRET=sua_google_client_secret
+  GITHUB_CLIENT_ID=seu_github_client_id
+  GITHUB_CLIENT_SECRET=sua_github_client_secret
+  ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📝 Licença
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais informações.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📞 Contato
 
-## Learn More
+<a href="https://github.com/tpaphysics">
+  <img src="https://avatars.githubusercontent.com/u/46402647?s=400&u=5b00ec492908116235f3d0c6eee80b94840b2339&v=4" alt="Foto de perfil" width="80" style="border-radius:50%">
+</a>
+<br>
+<a href="mailto:physics.posgrad@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
+</a>
+<br>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="seulinkedin.com">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
