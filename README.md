@@ -9,6 +9,16 @@
 
 Este é um exemplo simples de como criar um sistema de login com Google e Github usando Next.js e NextAuth.
 
+<p>
+<img src="/.screens/login.png" width="800px"/>
+</p>
+
+Após efetuar login, a página profile é exibida com os dados do usuário.
+
+<p>
+<img src="/.screens/profile.png" width="800px"/>
+</p>
+
 ## 📙 Funcionalidades
 
 - Login com Google
