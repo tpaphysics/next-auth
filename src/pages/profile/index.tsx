@@ -138,19 +138,6 @@ export default function Profile() {
                 <div className="mt-10 py-10 border-t border-gray-300 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <p className="mb-4 text-lg leading-relaxed text-gray-800">
-                        Este profissional é um físico que também possui
-                        conhecimentos em engenharia de software e data science.
-                        Com sua ampla experiência em análise de dados, modelagem
-                        matemática e programação, ele é capaz de criar soluções
-                        tecnológicas complexas e inovadoras, além de compreender
-                        profundamente as leis da natureza e as ciências da
-                        computação. Sua habilidade em integrar conhecimentos
-                        multidisciplinares permite a ele desenvolver soluções
-                        tecnológicas avançadas e eficientes para diversos
-                        setores, desde física teórica até aplicações de machine
-                        learning.
-                      </p>
                       <a
                         href="#"
                         className="font-normal text-purple-700 hover:purple-700"
