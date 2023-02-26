@@ -80,10 +80,10 @@ export default function Profile() {
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                    <div className="py-6 px-3 mt-32 sm:mt-0">
+                    <div className="py-6 px-3 sm:mt-0">
                       <button
                         onClick={() => handleSignOut()}
-                        className="bg-purple-700 active:bg-purple-900 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 hover:bg-purple-700/90"
+                        className="bg-purple-700 active:bg-purple-900 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:m-2 mb-1 hover:bg-purple-700/90"
                         type="button"
                         style={{ transition: "all .15s ease" }}
                       >
